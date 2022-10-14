@@ -92,8 +92,6 @@ ul{
 .minmenu a:hover {
     top: 2px;
     cursor: pointer;
-    text-decoration: none;
-    color: #fff;
     /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
 }
 .minmenu a::after{
@@ -235,14 +233,14 @@ ul{
 .main{
     width: 100%;
     height: 2950px;
-    background-image: url("https://img2.thuthuatphanmem.vn/uploads/2018/12/30/anh-background-dep-nhat_110341130.jpg");
+    background-image: url("https://wallpaperaccess.com/full/235805.jpg");
     /* background-size: 100% 100% ; */
     /* padding-top: 5px; */
 }
 .head-main{
     width: 80%;
     height: 700px;
-    background-color:rgb(10, 144, 133);
+    background-color:rgba(67, 73, 144, 0.35);
     border-radius:8px;
     display: flex;
     /* flex-direction: column; */
@@ -296,7 +294,7 @@ ul{
     margin-top: 80px;
     width: 100%;
     height: 300px;
-    background-color:rgb(10, 144, 133);
+    background-color:rgba(67, 73, 144, 0.35);
     display:flex;
     justify-content: space-around;
 }
@@ -356,13 +354,13 @@ ul{
     
 }
 .events p{
-    color: black;
+    color: white;
     font-size: 35px;
 }
 .first-post{
     width: 90%;
     height: 600px;
-    background-color:rgb(10, 144, 133);
+    background-color:rgba(67, 73, 144, 0.35);
     margin: 50px 50px 0;
     border-radius: 5px;
 }
@@ -380,7 +378,7 @@ ul{
 .second-post{
     width: 90%;
     height:550px;
-    background-color:rgb(10, 144, 133);
+    background-color:rgba(67, 73, 144, 0.35);
     margin:50px 50px 20px;
     border-radius: 5px;
 }
@@ -402,15 +400,14 @@ ul{
 }
 .topic-moreInfo p {
     font-size: 35px;
-    color: black;
-    margin-top:20px;
+    color: white;
 
     
 }
 .main-moreInfo{
     width: 100%;
     height: 1220px;
-    background-color:rgb(10, 144, 133);
+    background-color:rgba(67, 73, 144, 0.35);
     margin-top: 70px;
     border-radius: 5px;
     margin-right: 10px;
@@ -420,7 +417,7 @@ ul{
 .moreInfo{
     width: 380px;
     height: 400px;
-    background-color:rgb(10, 144, 133);
+    background-color:rgba(67, 73, 144, 0.35);
     margin: 15px;
 }
 /* #img1{
@@ -444,10 +441,6 @@ ul{
     text-decoration: none;
     
 }
-.shnews_box a:hover{
-    text-decoration: none;
-    color: #fff;
-}
 .shnews_box{
     display: flex;
     margin: 30px;
@@ -458,7 +451,7 @@ ul{
 .bot-main{
     width: 100%;
     height:300px;
-    background-color:rgb(10, 144, 133);
+    background-color:rgba(67, 73, 144, 0.35);
      margin-top: 170px;
     /* margin-left: 50px;  */
     text-align: center;
@@ -515,7 +508,7 @@ ul{
     display: inline-block;
 }
 #backtop{
-    background-color:rgb(72 198 188);
+    background-color:rgba(67, 73, 144, 0.35);
     width: 50px;
     height: 50px;
     display: flex;
@@ -846,11 +839,10 @@ ul{
     }
     
 }
-@media only screen and (min-width:1024px) and (max-width:1320px){
+@media only screen and (min-width:1024px) {
     #imgVuonuom{
-        width: 100%;
-        height: 80%;
-        margin-left:10%;
+        width: auto;
+        height: 50%;
     }
     .head-main{
         height: 28%;
@@ -871,9 +863,7 @@ ul{
     }
     .img-post{
         width: 80%;
+        height: auto;
         margin-left: 10%;
-    }
-    .head-main-left p{
-        width: 50%;
     }
 }
